@@ -8,7 +8,6 @@ public class GenerateRandom {
 		Random rand = new Random();
 		int rand_num = rand.nextInt();
 		System.out.println("The random number generated is: "+rand_num);
-		
 	}
 
 }
