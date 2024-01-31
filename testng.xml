@@ -3,7 +3,7 @@
 <suite name="RR-Main">
   <test name="Test">
     <classes>
-      <class name="testngpractice.PrintTitleUrl"/>
+      <class name="testngpractice.TitleVerification"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- RR-Main -->
