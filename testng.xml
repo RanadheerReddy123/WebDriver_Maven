@@ -3,7 +3,7 @@
 <suite name="RR-Main">
   <test name="Test">
     <classes>
-      <class name="testngpractice.GetSize"/>
+      <class name="testngpractice.ListofItems"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- RR-Main -->
