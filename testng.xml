@@ -3,7 +3,7 @@
 <suite name="RR-Main">
   <test name="Test">
     <classes>
-      <class name="testngpractice.LoginId"/>
+      <class name="testngpractice.PrintTitleUrl"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- RR-Main -->
