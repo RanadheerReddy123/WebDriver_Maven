@@ -3,7 +3,14 @@
 <suite name="RR-Main">
   <test name="Test">
     <classes>
-      <class name="testngpractice.ListofItems"/>
+     <!--  
+     <class name="testngpractice.ListofItems"/> 
+     <class name="testngpractice.GetSize"/>
+     <class name="testngpractice.LoginId"/>
+     <class name="testngpractice.TitleVerification"/>
+     <class name="testngpractice.PrintTitleUrl"/>
+     -->
+     <class name="testngpractice.MultiListBox"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- RR-Main -->

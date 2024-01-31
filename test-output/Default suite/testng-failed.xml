@@ -3,18 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="testngpractice.TitleVerification"/>
+      <class name="testngpractice.MultiListBox"/>
     </classes>
   </test> <!-- Default test -->
   <test name="Default test(failed)">
     <classes>
-      <class name="testngpractice.TitleVerification">
+      <class name="testngpractice.MultiListBox">
         <methods>
-          <include name="tearDown"/>
-          <include name="verifyTitle"/>
           <include name="setUp"/>
+          <include name="listBox"/>
         </methods>
-      </class> <!-- testngpractice.TitleVerification -->
+      </class> <!-- testngpractice.MultiListBox -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
