@@ -3,7 +3,6 @@
 <suite name="RR-Main">
   <test name="Test">
     <classes>
-      <class name="newpkg.Login"/>
       <class name="testngpractice.LoginId"/>
     </classes>
   </test> <!-- Test -->
