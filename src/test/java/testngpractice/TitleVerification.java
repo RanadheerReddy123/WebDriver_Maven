@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-//import org.testng.Assert;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 
 public class TitleVerification {
@@ -20,7 +20,8 @@ public class TitleVerification {
   public void verifyTitle() {
 	  String expectedTitle = "PrimusBank";
 	  String actualTitle = driver.getTitle();
-	  //Assert.assertEquals(actualTitle, expectedTitle, "Titles are not matching");
+	  //Assert.assertTrue(actualTitle.equalsIgnoreCase(expectedTitle), "Titles are not matching");
+	  //Assert.assertEquals(actualTitle, expectedTitle, "Title doesn't match the expected title.");
 	  if(actualTitle.equalsIgnoreCase(expectedTitle)) {
 		  System.out.println("Titles are matching");
 	  }else {
