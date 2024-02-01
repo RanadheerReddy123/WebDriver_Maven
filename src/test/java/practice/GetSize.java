@@ -16,7 +16,7 @@ public class GetSize {
 	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\mps\\Downloads\\Selenium\\RR\\Drivers\\chromedriver.exe");
 	  driver = new ChromeDriver();
 	  driver.manage().window().maximize();
-	  driver.get("http://primusbank.qedgetech.com/");
+	  driver.get("http://primusbank.qedgetech.com");
   }
   @Test
   public void getSize() {
