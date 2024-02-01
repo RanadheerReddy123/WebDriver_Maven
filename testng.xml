@@ -9,8 +9,9 @@
      <class name="testngpractice.LoginId"/>
      <class name="testngpractice.TitleVerification"/>
      <class name="testngpractice.PrintTitleUrl"/>
-     -->
      <class name="testngpractice.MultiListBox"/>
+     -->
+     <class name="testngpractice.HandlingWindows"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- RR-Main -->
