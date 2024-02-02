@@ -11,18 +11,16 @@ public class PageObjects {
 
 	
 		WebDriver driver;
-		By RegLink = By.linkText("Register");
-		By FirstName = By.name("full name");
+		By username = By.id("txtuId");
+		By pw = By.id("txtPword");
+		By login = By.id("login");
 		//Constructor to use browser
-		PageObjects(WebDriver driver){
-			WebDriver d = new ChromeDriver();
-			driver = d;
-			//PageFactory.initElements(d, this);
-		}
-		public void get(String string) {
-			// TODO Auto-generated method stub
-			
-		}
+//		PageObjects(WebDriver driver){
+//			WebDriver d = new ChromeDriver();
+//			driver = d;
+//			//PageFactory.initElements(d, this);
+//		}
+		
 
 	}
 

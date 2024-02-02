@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="5267" started-at="2024-02-02T12:29:08 IST" finished-at="2024-02-02T12:29:14 IST">
+  <suite name="Suite" duration-ms="10980" started-at="2024-02-02T14:43:12 IST" finished-at="2024-02-02T14:43:23 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="5267" started-at="2024-02-02T12:29:08 IST" finished-at="2024-02-02T12:29:14 IST">
+    <test name="Test" duration-ms="10980" started-at="2024-02-02T14:43:12 IST" finished-at="2024-02-02T14:43:23 IST">
       <class name="practice.TitleVerificationPOM">
-        <test-method status="PASS" signature="titlePOM()[pri:0, instance:practice.TitleVerificationPOM@1e6d1014]" name="titlePOM" duration-ms="3414" started-at="2024-02-02T12:29:09 IST" finished-at="2024-02-02T12:29:12 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:practice.TitleVerificationPOM@76707e36]" name="setUp" is-config="true" duration-ms="6060" started-at="2024-02-02T14:43:12 IST" finished-at="2024-02-02T14:43:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="titlePOM()[pri:0, instance:practice.TitleVerificationPOM@76707e36]" name="titlePOM" duration-ms="4155" started-at="2024-02-02T14:43:18 IST" finished-at="2024-02-02T14:43:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titlePOM -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:practice.TitleVerificationPOM@1e6d1014]" name="tearDown" is-config="true" duration-ms="1799" started-at="2024-02-02T12:29:12 IST" finished-at="2024-02-02T12:29:14 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:practice.TitleVerificationPOM@76707e36]" name="tearDown" is-config="true" duration-ms="716" started-at="2024-02-02T14:43:23 IST" finished-at="2024-02-02T14:43:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
