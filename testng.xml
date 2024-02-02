@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="practice.GetSize"/>
+      <class name="practice.TitleVerification"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
