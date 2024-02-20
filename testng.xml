@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="RR-Main">
+<suite name="RR-Main" parallel = "Methods" thread-count = "2">
   <test name="Test">
     <classes>
-     <!--  
+      <!--  
      <class name="testngpractice.ListofItems"/> 
      <class name="testngpractice.GetSize"/>
      <class name="testngpractice.LoginId"/>
      <class name="testngpractice.TitleVerification"/>
      <class name="testngpractice.PrintTitleUrl"/>
      <class name="testngpractice.MultiListBox"/>
-     -->
-     <class name="testngpractice.HandlingWindows"/>
+     --> 
+     <class name="testngpractice.TitleVerification"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- RR-Main -->
